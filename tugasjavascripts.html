@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Tugas Prognet</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+    <!-- =======================================================
+    * Template Name: Laura
+    * Updated: Sep 18 2023 with Bootstrap v5.3.2
+    * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Start Form ======= -->
+  <section id="form" class="form-mf sect-pt4 route">
+    <div class="container mt-4">
+      <h1 class="text-center">Form Biodata</h1>
+        <form id="formbio" action="tampil.html" method="GET">
+          <div class="form-group mb-4">
+            <label for="nama">Nama :</label>
+            <input type="text" class="form-control" id="nama" name="nama" required>
+          </div>
+          <div class="form-group mb-4">
+            <label for="username">Username :</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+          </div>
+          <div>
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" class="form-control" aria-describedby="passwordHelpBlock" required>
+            <div id="passwordHelpBlock" class="form-text mb-4">
+                Kata sandi Anda harus sepanjang 8-20 karakter, mengandung huruf dan angka, dan tidak boleh mengandung spasi, karakter khusus, atau emoji.
+          </div>
+          <div class="form-group mb-4">
+            <label for="email">Email :</label>
+            <input type="text" class="form-control" id="email" name="email" required>
+        </div>
+          <div class="form-group mb-4">
+            <label for="agama" class="form-label">Agama :</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Pilih opsi ini</option>
+              <option value="Hindu">Hindu</option>
+              <option value="Islam">Islam</option>
+              <option value="Budha">Budha</option>
+              <option value="Kristen Protestan">Kristen Protestan</option>
+              <option value="Kristen Katolik">Kristen Katolik</option>
+              <option value="Kong Hu Chu">Kong Hu Chu</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="jeniskelamin" class="form-label">Jenis Kelamin :</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="jeniskelamin" id="jeniskelamin" required>
+            <label class="form-check-label" for="jeniskelamin" value="Laki - Laki">
+              Laki-Laki
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="jeniskelamin" id="jeniskelamin" required>
+            <label class="form-check-label" for="jeniskelamin" value="Perempuan">
+              Perempuan
+            </label>
+          </div>
+          <div class="form-check mb-4">
+            <input class="form-check-input" type="radio" name="jeniskelamin" id="jeniskelamin" required>
+            <label class="form-check-label" for="jeniskelamin" value="Tidak inggin memberitahu">
+              Yang Lain
+            </label>
+          </div>
+          <div>
+            <label for="hobi" class="form-label">Pilih Hobi Anda :</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobi" value="option1">
+            <label class="form-check-label" for="hobi">Menari</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobi" value="option2">
+            <label class="form-check-label" for="hobi">Menyanyi</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobi" value="option3">
+            <label class="form-check-label" for="hobi">Menggambar</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobi" value="option1">
+            <label class="form-check-label" for="hobi">Traveling</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobi" value="option2">
+            <label class="form-check-label" for="hobi">Tidur</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobi" value="option3">
+            <label class="form-check-label" for="hobi">Berenang</label>
+          </div>
+          <div class="form-check form-check-inline mb-4">
+            <input class="form-check-input" type="checkbox" id="hobi" value="option3">
+            <label class="form-check-label" for="hobi">Olahraga</label>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary mb-4">Submit</button>
+          </div>
+      </form>
+  </div>
+</section>
+</body>
+
+</html>
